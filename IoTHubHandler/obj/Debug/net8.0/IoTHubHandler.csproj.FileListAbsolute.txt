@@ -1,0 +1,13 @@
+C:\Users\admin\source\repos\mqtt_subscriber\IoTHubHandler\bin\Debug\net8.0\IoTHubHandler.deps.json
+C:\Users\admin\source\repos\mqtt_subscriber\IoTHubHandler\bin\Debug\net8.0\IoTHubHandler.dll
+C:\Users\admin\source\repos\mqtt_subscriber\IoTHubHandler\bin\Debug\net8.0\IoTHubHandler.pdb
+C:\Users\admin\source\repos\mqtt_subscriber\IoTHubHandler\obj\Debug\net8.0\IoTHubHandler.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\mqtt_subscriber\IoTHubHandler\obj\Debug\net8.0\IoTHubHandler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\mqtt_subscriber\IoTHubHandler\obj\Debug\net8.0\IoTHubHandler.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\mqtt_subscriber\IoTHubHandler\obj\Debug\net8.0\IoTHubHandler.AssemblyInfo.cs
+C:\Users\admin\source\repos\mqtt_subscriber\IoTHubHandler\obj\Debug\net8.0\IoTHubHandler.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\mqtt_subscriber\IoTHubHandler\obj\Debug\net8.0\IoTHubHandler.sourcelink.json
+C:\Users\admin\source\repos\mqtt_subscriber\IoTHubHandler\obj\Debug\net8.0\IoTHubHandler.dll
+C:\Users\admin\source\repos\mqtt_subscriber\IoTHubHandler\obj\Debug\net8.0\refint\IoTHubHandler.dll
+C:\Users\admin\source\repos\mqtt_subscriber\IoTHubHandler\obj\Debug\net8.0\IoTHubHandler.pdb
+C:\Users\admin\source\repos\mqtt_subscriber\IoTHubHandler\obj\Debug\net8.0\ref\IoTHubHandler.dll

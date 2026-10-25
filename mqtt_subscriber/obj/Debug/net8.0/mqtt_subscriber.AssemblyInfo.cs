@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mqtt_subscriber")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c004d9f92ba915eaf0ec34009eabdb45f9f16072")]
 [assembly: System.Reflection.AssemblyProductAttribute("mqtt_subscriber")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mqtt_subscriber")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

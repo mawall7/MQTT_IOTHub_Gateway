@@ -41,7 +41,8 @@ public class MqttSubscriberService :  IMqttSubscriberService
     {
         var options = new MqttClientOptionsBuilder()
             .WithTcpServer(_brokerAddress, _brokerPort)
-            .WithClientId($"Client-{Guid.NewGuid():N}")
+            .WithClientId("csharp-gateway")
+            .WithCredentials("sensor-maw-01", "bytmig")
             .Build();
 
         await _client.ConnectAsync(

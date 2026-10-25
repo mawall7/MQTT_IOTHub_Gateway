@@ -1,0 +1,13 @@
+C:\Users\admin\source\repos\mqtt_subscriber\mqtt_subscriber\obj\Debug\net8.0\mqtt_subscriber.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\mqtt_subscriber\mqtt_subscriber\obj\Debug\net8.0\mqtt_subscriber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\mqtt_subscriber\mqtt_subscriber\obj\Debug\net8.0\mqtt_subscriber.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\mqtt_subscriber\mqtt_subscriber\obj\Debug\net8.0\mqtt_subscriber.AssemblyInfo.cs
+C:\Users\admin\source\repos\mqtt_subscriber\mqtt_subscriber\obj\Debug\net8.0\mqtt_subscriber.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\mqtt_subscriber\mqtt_subscriber\obj\Debug\net8.0\mqtt_subscriber.sourcelink.json
+C:\Users\admin\source\repos\mqtt_subscriber\mqtt_subscriber\bin\Debug\net8.0\mqtt_subscriber.deps.json
+C:\Users\admin\source\repos\mqtt_subscriber\mqtt_subscriber\bin\Debug\net8.0\mqtt_subscriber.dll
+C:\Users\admin\source\repos\mqtt_subscriber\mqtt_subscriber\bin\Debug\net8.0\mqtt_subscriber.pdb
+C:\Users\admin\source\repos\mqtt_subscriber\mqtt_subscriber\obj\Debug\net8.0\mqtt_subscriber.dll
+C:\Users\admin\source\repos\mqtt_subscriber\mqtt_subscriber\obj\Debug\net8.0\refint\mqtt_subscriber.dll
+C:\Users\admin\source\repos\mqtt_subscriber\mqtt_subscriber\obj\Debug\net8.0\mqtt_subscriber.pdb
+C:\Users\admin\source\repos\mqtt_subscriber\mqtt_subscriber\obj\Debug\net8.0\ref\mqtt_subscriber.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IoTHubHandler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c004d9f92ba915eaf0ec34009eabdb45f9f16072")]
 [assembly: System.Reflection.AssemblyProductAttribute("IoTHubHandler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IoTHubHandler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

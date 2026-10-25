@@ -15,7 +15,7 @@ namespace MessagingApplication {
             HostApplicationBuilder builder = Host.CreateApplicationBuilder(args);
 
             builder.Services.AddSingleton<IMqttSubscriberService>(provider =>
-            new MqttSubscriberService("mqtt_admin@mqtt-broker-mw.local", 1883, "telemetry/#"));
+            new MqttSubscriberService("192.168.43.201", 1883, "home/telemetri/#"));
 
             var connectionString = builder.Configuration.GetConnectionString("AzIoTHubConnection");
             if (string.IsNullOrEmpty(connectionString))
@@ -27,12 +27,14 @@ namespace MessagingApplication {
         
             new IoT_HubHandler(connectionString));
 
+
             // När Gateway skapas, injiceras automatiskt de två tjänsterna ovan i dess konstruktor!
             builder.Services.AddSingleton<Gateway>();
 
             var host = builder.Build();
             var mqttService = host.Services.GetRequiredService<IMqttSubscriberService>();
-            var gatevay = host.Services.GetRequiredService<Gateway>();
+            var gateway = host.Services.GetRequiredService<Gateway>();
+            var hub = host.Services.GetRequiredService<IoT_HubHandler>();
 
            
                 
@@ -42,9 +44,13 @@ namespace MessagingApplication {
                     Console.WriteLine("Ansluter till Mosquitto...");
 
                     await mqttService.ConnectAsync(cts.Token);
-                    
                     Console.WriteLine("MQTT-klienten är igång!");
-                }
+
+                    
+                    await hub.ConnectAsync();
+                    Console.WriteLine("IoTHub-klienten är igång!");
+                    
+            }
                 catch(OperationCanceledException)
                 {
                     Console.WriteLine($"Kunde inte ansluta till MQtt-brokern innan tidsgränsen");
