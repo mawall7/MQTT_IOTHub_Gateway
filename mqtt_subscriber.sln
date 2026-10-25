@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mqtt_subscriber", "mqtt_subscriber\mqtt_subscriber.csproj", "{293D3F4C-2392-412C-92C1-CFBF9D46A568}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MqttHubGateway", "MqttOpcGateway\MqttHubGateway.csproj", "{E61A7E35-CE9B-4EB3-99F3-FBA1EECB69F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTHubHandler", "IoTHubHandler\IoTHubHandler.csproj", "{B025848C-1756-4D71-8629-F49922BEC06E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingApplication", "MessagingApplication\MessagingApplication.csproj", "{7FF171F1-F7CE-49F6-AA09-9BABC7DAA774}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{293D3F4C-2392-412C-92C1-CFBF9D46A568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293D3F4C-2392-412C-92C1-CFBF9D46A568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293D3F4C-2392-412C-92C1-CFBF9D46A568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293D3F4C-2392-412C-92C1-CFBF9D46A568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E61A7E35-CE9B-4EB3-99F3-FBA1EECB69F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E61A7E35-CE9B-4EB3-99F3-FBA1EECB69F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E61A7E35-CE9B-4EB3-99F3-FBA1EECB69F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E61A7E35-CE9B-4EB3-99F3-FBA1EECB69F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B025848C-1756-4D71-8629-F49922BEC06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B025848C-1756-4D71-8629-F49922BEC06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B025848C-1756-4D71-8629-F49922BEC06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B025848C-1756-4D71-8629-F49922BEC06E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FF171F1-F7CE-49F6-AA09-9BABC7DAA774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF171F1-F7CE-49F6-AA09-9BABC7DAA774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF171F1-F7CE-49F6-AA09-9BABC7DAA774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF171F1-F7CE-49F6-AA09-9BABC7DAA774}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C46B8A5-1537-4138-B4CF-7EB9840B34CC}
+	EndGlobalSection
+EndGlobal
