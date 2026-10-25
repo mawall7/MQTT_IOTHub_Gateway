@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MqttHubGateway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e622081438656b2cd0d535eed347f7f05f04156")]
 [assembly: System.Reflection.AssemblyProductAttribute("MqttHubGateway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MqttHubGateway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
