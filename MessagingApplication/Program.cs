@@ -27,8 +27,7 @@ namespace MessagingApplication {
         
             new IoT_HubHandler(connectionString));
 
-
-            // När Gateway skapas, injiceras automatiskt de två tjänsterna ovan i dess konstruktor!
+            
             builder.Services.AddSingleton<Gateway>();
 
             var host = builder.Build();
